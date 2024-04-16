@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.header{
+    background-color:  #333;
+    color: #a9a2a2;
+}
+.header ul {
+    display: flex;
+    justify-content:space-around;
+}
+
+li{
+    list-style-type: none;
+    padding: 17px;
+}
+
+.text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text h1{
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.text h5{
+    font-family: Arial;
+    font-size: 11px;
+    color:  #666;
+}
+
+.imagens{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    justify-content: center;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+    
+}
+
+.imagens img{
+    width: 200px;
+    height: 150px;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .dez, .onze, .doze{
+    padding-top: 6px;
+
+    width: 210px;
+    height: 180px;
+
+    text-align: center;
+
+    border-radius: 4px;
+    background-color: #D2D2D2;
+}
+.text2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.text2 a{
+    color: #1287F2;
+}
+.text2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+footer{
+    background-color: #333;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #a9a2a2;
+}
+.footer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
